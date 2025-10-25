@@ -3,103 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <title>Riyaziyyat oyren</title>
-</head>
-<body style="background: cyan ">
-<style>
-    .mydiv {
-        background: aquamarine;
-        border: 5px outset red;
-        border-radius: 20px;
-        width:200px;
-        margin-left: -5px;
-        text-align: center;
-
-
-
+    <style>
+    body{
+        background-image:  url('36304235_8423661.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+        background-color: grey;
     }
+
+
     #div{
-        border: 5px outset red;
+
         border-radius: 20px;
         margin-left:-5px;
-
-
     }
-    .my{
+    button{
+        cursor: pointer;
+        transition: 0.7s;
+    }
+    button:hover{
+        color: red;
+    }
+    .navbar{
+        height: 10vh;
+        width:50%;
         display:flex;
-        border:5px outset red ;
-        border-radius: 20px;
-        margin-left: 5px;
-        height: 75px;
+        flex-direction: row ;
+        align-items: center;
+        justify-content:space-between;
+        font-weight: bold;
+    }
+    a{
+        text-decoration: none;
+        width:200%;
+        color:red;
+        font-weight: bolder;
+    }
+    .mydiv{
+        color:black;
+        cursor: pointer;
+        transition: 0.7s;
+        width:400%;
+    }
+    a:hover{
+        color: yellow;
+        transition:  0.7s;
+        border-radius: 30px;
+        background-color: grey;
+        border: 4px  solid red;
+    }
+    .mydiv:hover{
+        color: yellow;
+        border-radius: 30px;
+        background-color: grey;
+        border: 4px  solid red;
+    }
 
-    }
-    .divs{
-        margin-left: 1px;
-        border-radius: 20px;
-        color: cyan;
-
-    }
-    .button{
-        background-color: antiquewhite;
-        border-radius: 50px;
-        width:150px;
-        height: 75px;
-    }
-    #buttons{
-        background-color: antiquewhite;
-        border-radius: 50px;
-        width:150px;
-        height:  75px;
-
-    }
-    .img{
-        width: 70px;
-        border: 5px outset red;
-        border-radius: 20px;
-        margin-left: -5px;
-        height: 75px;
-
-    }
-    .esas{
-        display:flex;
-    }
-    .yenibt{
-        background-color: antiquewhite;
-        border-radius: 50px;
-        width:150px;
-        height:  75px;
-    }
 </style>
 
-<div class="esas">
-    <div><img class="img" src="ChatGPT%20Image%20Oct%2017,%202025,%2003_33_17%20PM.png"></div>
+</head>
+<body>
 
-    <div class="my">
-        <div class="mydiv"><h3>Riayziyyat oyren</h3></div>
-        <div class="divs"><button class="button" onclick="window.location.href='index.html'"><h3>Ana Sehife</h3></button><button id="buttons"><h3>haqqimizda</h3></button><button class="yenibt"onclick="window.location.href='amin2.html'"><h3>Muraciet</h3></button></div>
-    </div>
-</div>
+    <nav class="navbar">
+        <h1 class="mydiv" onclick="window.document.location.href='index.html'">Riyaziyyat Oyren</h1>
+        <a href="index.html"><h2>Ana Sehife</h2></a>
+        <a href="#"><h2>Testler</h2></a>
+
+        <a href="amin2.html"><h2>Muraciet</h2></a>
+        <a href=""><h2>Haqqimizda</h2></a>
+
+    </nav>
+
 <div id="div">
          <h2>Bu sayt riyaziyyat oyrenmek isteyenler ucun hazirlanib ve cetin movzularin rahat izahlari vardir.Isteseniz videolarda isteseniz qaydalardan oyrene bilerseniz sonra ise
      ozunuzu test etmek ucun testlerimiz de movcuddur.</h2>
     
            <h3> Hansi movzunu secirsiniz?</h3>
     <ul>
-        <li>        <h4> Natural ededler</h4>   <a href="about.html">Natural ededler</a> </li>
-        <li>        <h4> Adi ve onluq kesrler</h4><a href="">Adi ve onluq kesrler</a></li>
-        <li>        <h4> Coxluqlar</h4><a href="">Coxluqlar</a></li>
-        <li>        <h4> Nisbe,Faiz,Tenasub</h4><a href="">Nisbe,Faiz,Tenasub</a></li>
-        <li>        <h4> Hendesenin esas anlayislari</h4><a href="">Hendesenin esas anlayislari</a></li>
+        <li><a href="about.html">Natural ededler</a> </li>
+        <li><a href="">Adi ve onluq kesrler</a></li>
+        <li><a href="">Coxluqlar</a></li>
+        <li><a href="">Nisbet,Faiz,Tenasub</a></li>
+        <li><a href="">Hendesenin esas anlayislari</a></li>
     </ul>
 </div>
-
-
-
-
-
-
 </body>
-
 </html>
-
-
-
